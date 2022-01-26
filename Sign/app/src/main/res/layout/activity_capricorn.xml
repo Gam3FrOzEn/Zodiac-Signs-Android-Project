@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#030C12">
+
+    <ImageView
+        android:id="@+id/imageView_capricorn"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:background="@drawable/capricorn_sign"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_capricorn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:text="Козирог"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView_capricorn" />
+
+    <TextView
+        android:id="@+id/textView2_capricorn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="16dp"
+        android:text="Описание"
+        android:textColor="#4F4F4F"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_capricorn" />
+
+    <TextView
+        android:id="@+id/textView3_capricorn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="35dp"
+        android:lineSpacingExtra="4dp"
+        android:text="Козирогът е земен знак. Това е моята 4-та най-любима зодия. Като недостатък мога да кажа за тях, че са прекалено вглъбени в себе си, тоест, трудно гледат на нещата от различна гледна точка. Също така са метериалисти. Добрите им качества, обаче, са много повече от лошите им - те са амбициозни, и винаги получават това което желаят. Те са изключително постоянни в начинанията си. Освен това са много надеждни - най-добрите съвети съм получавал именно от тях. "
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2_capricorn"/>
+
+    <TextView
+        android:id="@+id/textView5_aries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:text="Съвместимост:"
+        android:textColor="#4F4F4F"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3_capricorn" />
+
+    <TextView
+        android:id="@+id/textView4_capricorn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:lineSpacingExtra="4dp"
+        android:text="Убеден съм, че зодия Козирог е най-съвместима със зодия Телец. И двете зодии харесват материалните неща. И за двамата, работата и професионалното развитие са най-важни. Освен това телците могат да развеселяват козирога, който обикновенно е много сериозен."
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

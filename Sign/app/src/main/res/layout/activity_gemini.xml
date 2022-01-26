@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#030C12">
+
+<ImageView
+    android:id="@+id/imageView_gemini"
+    android:layout_width="0dp"
+    android:layout_height="250dp"
+    android:background="@drawable/gemini_sign"
+    android:scaleType="centerCrop"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:id="@+id/textView_gemini"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="216dp"
+    android:text="Близнаци"
+    android:textColor="#FFFFFF"
+    android:textSize="25sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/imageView_gemini" />
+
+<TextView
+    android:id="@+id/textView2_gemini"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="26dp"
+    android:layout_marginTop="16dp"
+    android:text="Описание"
+    android:textColor="#4F4F4F"
+    android:textSize="20sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/imageView_gemini" />
+
+<TextView
+    android:id="@+id/textView3_gemini"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="26dp"
+    android:layout_marginStart="32dp"
+    android:layout_marginTop="35dp"
+    android:lineSpacingExtra="4dp"
+    android:text="Близнаци е въздушен знак. Мнението ми за близнаците е, че обичат клюките. Често се случва да не спазят обещанията си, защото характерът на тази зодия е двойствен. Техните хубави страни са, че почти всички хора Близнаци са начетени и умни. Също  така са и много разговорливи и комуникативни. Компанията им, според мен, е удоволствие, защото обожават да говорят и винаги имат нещо добро за казване."
+    android:textColor="#FFF"
+    android:textSize="18sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/textView2_gemini"/>
+
+    <TextView
+        android:id="@+id/textView5_aries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="85dp"
+        android:text="Съвместимост:"
+        android:textColor="#4F4F4F"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3_gemini" />
+
+<TextView
+    android:id="@+id/textView4_gemini"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="26dp"
+    android:layout_marginStart="32dp"
+    android:layout_marginTop="50dp"
+    android:lineSpacingExtra="4dp"
+    android:text="За мен, зодия Близнаци е най-съвместима със зодия Везни. И двете зодии обожават да говорят, имат много сходно мислене, споделят еднакви интереси и се мотивират взаимно."
+    android:textColor="#FFF"
+    android:textSize="18sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

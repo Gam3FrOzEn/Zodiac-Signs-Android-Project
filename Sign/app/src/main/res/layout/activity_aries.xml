@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#030C12">
+
+    <ImageView
+        android:id="@+id/imageView_aries"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:background="@drawable/aries_sign"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_aries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:text="Овен"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView_aries" />
+
+    <TextView
+        android:id="@+id/textView2_aries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="16dp"
+        android:text="Описание"
+        android:textColor="#4F4F4F"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_aries" />
+
+    <TextView
+        android:id="@+id/textView3_aries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="35dp"
+        android:lineSpacingExtra="4dp"
+        android:text="Овенът е огнен знак. Според мен, най-големите недостатъци на овените са, че те са изключително нетърпеливи и избухливи. Забелязал съм, че много обичат да спорят и имат властен характер. От друга страна, обаче, те са пълни с енергия - свят ще ти се завие от тяхната активност. Също така са честни и самоуверени."
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2_aries"/>
+
+    <TextView
+        android:id="@+id/textView5_aries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:text="Съвместимост:"
+        android:textColor="#4F4F4F"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3_aries" />
+
+    <TextView
+        android:id="@+id/textView4_aries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:lineSpacingExtra="4dp"
+        android:text="Според мен, Овен са най-съвместими със зодия Стрелец. И двете зодии са много енергични. Големи оптимисти са и имат подобен поглед над нещата, обожават свободата и мразят да им казват какво да правят. Според мен, това са зодиите с най-голям ентусиазъм към новостите, което също ги обединява."
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

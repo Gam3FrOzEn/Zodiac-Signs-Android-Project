@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sign">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sign">
+        <activity
+            android:name=".AquariusActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CapricornActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SagittariusActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ScorpioActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LibraActivity"
+            android:exported="true" />
+        <activity
+            android:name=".VirgoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LeoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GeminiActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TaurusActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AriesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PiscesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CancerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignDetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

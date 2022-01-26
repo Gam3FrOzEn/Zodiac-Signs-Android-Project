@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/activity_aquarius.xml" value="0.23369565217391305" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/activity_aries.xml" value="0.23369565217391305" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/activity_cancer.xml" value="0.25" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/activity_capricorn.xml" value="0.23369565217391305" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/activity_gemini.xml" value="0.23369565217391305" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/activity_leo.xml" value="0.25" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/activity_libra.xml" value="0.23369565217391305" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/activity_main.xml" value="0.24003623188405798" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/activity_pisces.xml" value="0.23369565217391305" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/activity_sagittarius.xml" value="0.23369565217391305" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/activity_scorpio.xml" value="0.23369565217391305" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/activity_sign_details.xml" value="0.24003623188405798" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/activity_taurus.xml" value="0.23369565217391305" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/activity_virgo.xml" value="0.22" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/aquarius.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/aries.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/cancer.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/capricorn.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/gemini.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/leo.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/libra.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/pisces.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/sagittarius.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/scorpio.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/sign_list_row.xml" value="0.24003623188405798" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/taurus.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/virgo.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Gam3FrOzEn/AndroidStudioProjects/Sign/app/src/main/res/layout/zproba.xml" value="0.24230072463768115" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

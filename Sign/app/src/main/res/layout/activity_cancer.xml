@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#030C12">
+
+    <ImageView
+        android:id="@+id/imageView_cancer"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:background="@drawable/cancer_sign"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView2_cancer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="16dp"
+        android:text="Описание"
+        android:textColor="#4F4F4F"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_cancer" />
+
+    <TextView
+        android:id="@+id/textView3_cancer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="35dp"
+        android:lineSpacingExtra="4dp"
+        android:text="Ракът е воден знак. Това е любимата ми зодия, заедно с моята зодия - Риби. Единствените недостатъци които намирам в раците, ако въобще могат да се нарекат недостатъци, е че те са прекалено емоционални и подозрителни. Но това са дреболии в сравнение с качествата им. Те са изключително лоялни и грижовни хора. Защитават хората, които обичат и наистина ги е грижа за тях - eдин рак никога не би те попитал как си, ако наистина не му пука за теб. Раците, също така, винаги усещат в какво настроение си. Правят също и най-готините подаръци.(Най-хубавият ми подарък е подарен от Рак)"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2_cancer"/>
+
+    <TextView
+        android:id="@+id/textView5_aries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="55dp"
+        android:text="Съвместимост:"
+        android:textColor="#4F4F4F"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3_cancer" />
+
+    <TextView
+        android:id="@+id/textView4_cancer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:lineSpacingExtra="4dp"
+        android:text="Зодия Рак категорично е най-съвместима със зодия Риби. Имам чувсвото, че са родени един за друг. И двете зодии са изключително предани и са адски романтични - всеки от двамата е готов да прави романтични жестове за другия. Те, обикновенно, изпитват едни и същи емоции и се разбират помежду си с половин дума. Да не говорим, че и 2-те зодии обожават и държат на семействата си."
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

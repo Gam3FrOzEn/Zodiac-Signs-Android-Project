@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#030C12">
+
+    <ImageView
+        android:id="@+id/imageView_pisces"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:background="@drawable/pisces_sign"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_pisces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="204dp"
+        android:text="Риби"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView_pisces" />
+
+    <TextView
+        android:id="@+id/textView2_pisces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="16dp"
+        android:text="Описание"
+        android:textColor="#4F4F4F"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_pisces" />
+
+    <TextView
+        android:id="@+id/textView3_pisces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="35dp"
+        android:lineSpacingExtra="4dp"
+        android:text="Риби е воден знак. Това е любимият ми знак от целия зодиак. Аз самият съм риби :) . Рибите, притежаваме 1 уникално качество - имаме черти от всички останали зодии. Това ни прави най-адаптивната зодия - можем да се приспособим към всякакви среди и хора. Освен това риби са най-романтичния, най-артистичния и с най-развито 6то чувство, зодиакален знак, тъй като е събрал по нещо от всеки друг. Недостатъците на рибите са, че са мързеливи и са прекалено чувствителни.  "
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2_pisces"/>
+
+    <TextView
+        android:id="@+id/textView5_aries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="35dp"
+        android:text="Съвместимост:"
+        android:textColor="#4F4F4F"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3_pisces" />
+
+    <TextView
+        android:id="@+id/textView4_pisces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:lineSpacingExtra="4dp"
+        android:text="Зодия Риби категорично е най-съвместима със зодия Рак. Имам чувсвото, че са родени един за друг. И двете зодии са изключително предани и са адски романтични - всеки от двамата е готов да прави романтични жестове за другия. Те, обикновенно, изпитват едни и същи емоции и се разбират помежду си с половин дума. Да не говорим, че и 2-те зодии обожават и държат на семействата си."
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
